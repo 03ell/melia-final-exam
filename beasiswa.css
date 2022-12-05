@@ -1,0 +1,138 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #8eb2da;
+}
+#beasiswa_id{
+    background-image: linear-gradient(160deg, #1c7de5, rgb(164, 118, 174));
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+/* Navbar style */
+*{
+    z-index: 2;
+}
+.navbar{
+    z-index: 3;
+}
+.navbar span{
+    font-weight: 600;
+}
+
+/* section tagline */
+.beasiswa_id_tagline h1 {
+    line-height: 75px;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.beasiswa_id_tagline p {
+    font-size: 20px;
+    margin-top: 4%;
+    line-height: 30px;
+}
+
+/* section item beasiswa */
+.beasiswa_id2_tagline span{
+    color: rgb(0, 0, 0);
+}
+#beasiswa_id2{
+    padding: 100px 0;
+}
+.beasiswa_id2_tagline h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(66, 49, 144);
+}
+.beasiswa_id2_tagline span{
+    font-size: 20px;
+}
+
+.card-beasiswa{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #8eb2da, rgb(185, 152, 195));
+    padding: 26px;
+    /* box-shadow: -3px 5px 15px rgba(0, 0, 0, 0.5); */
+    transition: all .3s ease-in;
+}
+.circle-icon{
+    width: 100%;
+    height: 160px;
+}
+.card-beasiswa{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 400;
+    
+    transition: all .3s ease-in;
+}
+.card-beasiswa p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition: all .3s ease-in;
+}
+
+/* hover */
+.card-beasiswa:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(160deg, #1c7de5, rgb(164, 118, 174));
+    padding: 30px;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: all .3s ease-out;
+}
+.card-beasiswa:hover{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    transition: all .3s ease-out;
+}
+.card-beasiswa:hover p{
+    color: white;
+    font-size: 16px;
+    transition: all .3s ease-out;
+}
+
+/* arrow */
+.arrows-body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-bottom: 12px solid #fff;
+    border-right: 12px solid #fff;
+    transform: rotate(45deg);
+    animation: arrow-load 2s infinite; 
+}
+.arrow:nth-child(1){
+    transform: rotate(45deg);
+}
+.arrow:nth-child(2){
+    transform: rotate(45deg);
+}
+.arrow:nth-child(3){
+    transform: rotate(45deg);
+}
+@keyframes arrow-load {
+    0%{margin-top: 0;}
+    50%{margin-top: 100px;}
+    100%{margin-top: 0;}
+}
